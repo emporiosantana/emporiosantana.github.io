@@ -1,7 +1,7 @@
 {
     "sections": [
         {
-            "id": 1,
+            "id": "porcoesfrias",
             "name": "Porções Frias",
             "products": [
                 {
@@ -42,7 +42,7 @@
             ]
         },
         {
-            "id": 2,
+            "id": "porcoesquentes",
             "name": "Petiscos Quentes",
             "products": [
                                 {
@@ -210,7 +210,7 @@
             ]
         },
         {
-            "id": 5,
+            "id": "jantinhas",
             "name": "Jantinhas do Empório",
             "products": [
                 {
@@ -236,7 +236,7 @@
             ]
         }, 
         {
-            "id": 6,
+            "id": "lanches",
             "name": "Hambúgueres",
             "products": [
                 {
@@ -262,7 +262,7 @@
             ]
         },
         {
-            "id": 7,
+            "id": "pratos",
             "name": "Pratos à la carte",
             "products": [
                 {
@@ -278,7 +278,7 @@
             ]
         },
         {
-            "id": 8,
+            "id": "sobremesas",
             "name": "Sobremesas",
             "products": [
                 {
@@ -299,7 +299,7 @@
             ]
         },
         {
-            "id": 9,
+            "id": "bebAlcool",
             "name": "Chopps",
             "products": [
                 {
@@ -795,7 +795,7 @@
             ]
         },
         {
-            "id": 17,
+            "id": "bebNaoAlcool",
             "name": "Sem Álcool",
             "products": [
                 {

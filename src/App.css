@@ -28,6 +28,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -46,24 +47,46 @@ table {
 
 
 html{
-  background-color: #ffffff;
+  background-color: #CCDBD8;
+  scroll-behavior: smooth;
 }
 
 .app{
-  margin: 30px;
+  margin: 10px;
 }
+
 
 .header{
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #CCDBD8;
+  width: 100%;
+  padding-top: 20px;
 }
 
 .logo {
   width: 75px;
   height: 75px;
   border-radius: 50%;
-  margin-bottom: 2em;
 }
+
+.ondulacao{
+  width: 100%;
+  height: 60px;
+}
+
+.content {
+  background-color: #fefefe;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.full_menu{
+  padding-top: 10px;
+}
+
 
 
 .menu{
@@ -84,7 +107,7 @@ html{
   width: 45px;
   height: 45px;
   border: 1px #f9f9f9 solid;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px;
   margin: 10px;
   background-color: #f9f9f9;
@@ -99,17 +122,40 @@ html{
   opacity: 0.5;
 }
 
+@media only screen and (min-width: 700px) {
+  .full_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  .menu{
+    width: 50%;
+  }
+
+  .menu_itens{
+   width: 80px;
+   height: 140px;
+  }
+}
+
 a { 
   color: inherit;
   text-decoration: none;
 } 
 
 .nome_menu{
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   text-align: center;
   margin: 1em;
+}
+.head_produto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .titulo_produtos{
@@ -119,7 +165,7 @@ a {
   text-align: center;
   margin: 1em 0;
   padding: 5px 0;
-  background-color: #C8D9D2;
+  background-color:#CCDBD8;
   border-radius: 5px;
 }
 .nome_produto{
@@ -157,7 +203,26 @@ a {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #CCDBD8;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;  
+}
+
+.arrow-hide {
+  display: none;
+}
+
+.arrow{
+  width: 25px;
+  height: 25px;
+  background-color: #dadada;
+  border-radius: 50%;
+  padding: 10px;
+  opacity: 90%;
 }
