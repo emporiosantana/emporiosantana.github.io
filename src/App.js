@@ -75,7 +75,7 @@ function App() {
 									<h2 className="nome_menu">Bebidas Alcoólicas</h2>
 								</div>
 							</a>
-							<a href="#17">
+							<a href="#bebNaoAlcool">
 								<div className="menu_itens">
 									<img src="./images/orange-juice.svg" alt="ícones de um copo de suco ilustrando a aba      Bebidas Não Alcoólicas" className='icones_menu' />
 									<h2 className="nome_menu">Bebidas Não Alcoólicas</h2>
