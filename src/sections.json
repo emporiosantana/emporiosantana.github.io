@@ -11,12 +11,12 @@
                 },
                 {
                     "name": "Bruschetta da Casa",
-                    "description": "Com tomates assados, pesto de manjericão e parmessão.",
+                    "description": "Com tomates assados, pesto de manjericão e parmesão.",
                     "value": 32.90
                 },
                 {
                     "name": "Bruschetta de cogumelos",
-                    "description": "Com cogumelos salteados e parmessão.",
+                    "description": "Com cogumelos salteados e parmesão.",
                     "value": 39.90
                 },
                 {
@@ -282,7 +282,7 @@
             "name": "Sobremesas",
             "products": [
                 {
-                    "name": "Petit Gateau",
+                    "name": "Petit Gâteau",
                     "description": "Com sorvete de creme ou chocolate.",
                     "value": 22.90
                 },
@@ -622,7 +622,7 @@
                 },
                 {
                     "name": "Clericot",
-                    "description": "Jarra de espumantte, frutas e gelo. (Serve aprox. 4 pessoas)",
+                    "description": "Jarra de espumante, frutas e gelo. (Serve aprox. 4 pessoas)",
                     "value": 69.99
                 },
                 {
@@ -800,12 +800,12 @@
             "products": [
                 {
                     "name": "Morango Zero Álcool",
-                    "description": "Morango, limão, Yakult e açucar.",
+                    "description": "Morango, limão, Yakult e açúcar.",
                     "value": 22.90
                 }, 
                 {
                     "name": "Frutee Zero Álcool",
-                    "description": "Kiwi ou Abacaxi,Tônica Zero e açucar e especiarias.",
+                    "description": "Kiwi ou Abacaxi,Tônica Zero e açúcar e especiarias.",
                     "value": 24.90
                 },
                 {
