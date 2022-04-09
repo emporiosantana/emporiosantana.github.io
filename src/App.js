@@ -5,7 +5,7 @@ import sectionResponse from './sections.json';
 import menuItemsResponse from './menu-items.json';
 
 import ArrowUp from "./components/ArrowUp";
-import SectionList from './modules/SectionList';
+import SectionItems from './modules/SectionItems';
 import MenuItems from "./modules/MenuItems";
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
 				<main className="content">
 					<MenuItems items={menuItemsResponse.menu.items} />
 
-					<SectionList sections={sectionResponse.sections} />
+					<SectionItems sections={sectionResponse.sections} />
 
 					<ArrowUp visible={isArrowVisible} description={'Seta que retorna ao topo da página'} href="#header" />
 										

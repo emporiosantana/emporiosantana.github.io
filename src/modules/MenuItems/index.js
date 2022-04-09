@@ -1,11 +1,11 @@
-import MenuItem from "../../components/MenuItem";
+import Menu from "../../components/Menu";
 
 const MenuItems = ({ items }) => {
   return (
     <div className="full_menu">
       <div className="menu">
         {items.map(menuItem => (
-          <MenuItem
+          <Menu
             srcIcon={menuItem.srcIcon}
             description={menuItem.description}
             name={menuItem.name}
