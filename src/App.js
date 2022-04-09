@@ -7,6 +7,7 @@ import menuItemsResponse from './menu-items.json';
 import ArrowUp from "./components/ArrowUp";
 import SectionItems from './modules/SectionItems';
 import MenuItems from "./modules/MenuItems";
+import Header from "./components/Header";
 
 function App() {
 	const [isArrowVisible, setIsArrowVisible] = useState(false);
@@ -27,10 +28,7 @@ function App() {
 	return (
 
 		<div className="app">
-			<header className='header' id="header">
-				<img src="./images/logo.jpeg" alt="Logo do Empório Santana Bar" className='logo' />
-				<img src="./images/ondulacao.jpeg" alt="efeito de onda" className="ondulacao" />
-			</header>
+			<Header srcLogo="./images/logo.jpeg" description="Logo do Empório Santana Bar" />
 
 			<body>
 				<main className="content">
