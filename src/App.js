@@ -26,7 +26,6 @@ function App() {
 	}
 
 	return (
-
 		<div className="app">
 			<Header srcLogo="./images/logo.jpeg" description="Logo do Empório Santana Bar" />
 
