@@ -4,6 +4,7 @@ import MenuItem from "./components/MenuItem";
 import SectionList from './components/SectionList';
 import sectionResponse from './sections.json';
 import menuItemsResponse from './menu-items.json';
+import MenuItems from "./modules/MenuItems";
 
 function App() {
 	const [isArrowVisible, setIsArrowVisible] = useState(false);
@@ -30,21 +31,8 @@ function App() {
 
 			<body>
 				<div className="content">
-					<div className="full_menu">
-						<div className="menu">
-							{
-								menuItemsResponse.menu.items.map(menuItem => (
-									<MenuItem
-										srcIcon={menuItem.srcIcon}
-										description={menuItem.description}
-										name={menuItem.name}
-										section={menuItem.section}
-									/>
-								))
-							}
-						</div>
-					</div>
-
+					<MenuItems items={menuItemsResponse.menu.items} />
+					
 					<a className={`back-to-top${!isArrowVisible ? ' arrow-hide' : ''}`} href="#header">
 						<img className="arrow" src="./images/up-arrow.svg" alt="Seta que retorna ao topo da página"></img>
 					</a>
