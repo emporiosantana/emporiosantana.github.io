@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react"
 import './App.css';
 import SectionList from './components/SectionList';
 import data from './sections.json'
-// import scrollToComponent from 'react-scroll-to-component';
 
 function App() {
 	const [isArrowVisible, setIsArrowVisible] = useState(false);
