@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react"
 import './App.css';
-import MenuItem from "./components/MenuItem";
-import SectionList from './components/SectionList';
+
 import sectionResponse from './sections.json';
 import menuItemsResponse from './menu-items.json';
+
+import ArrowUp from "./components/ArrowUp";
+import SectionList from './modules/SectionList';
 import MenuItems from "./modules/MenuItems";
 
 function App() {
@@ -11,6 +13,7 @@ function App() {
 
 	useEffect(() => {
 		window.addEventListener("scroll", listenToScroll);
+
 		return () => {
 			window.removeEventListener("scroll", listenToScroll);
 		};
@@ -30,19 +33,19 @@ function App() {
 			</header>
 
 			<body>
-				<div className="content">
+				<main className="content">
 					<MenuItems items={menuItemsResponse.menu.items} />
-					
-					<a className={`back-to-top${!isArrowVisible ? ' arrow-hide' : ''}`} href="#header">
-						<img className="arrow" src="./images/up-arrow.svg" alt="Seta que retorna ao topo da página"></img>
-					</a>
+
 					<SectionList sections={sectionResponse.sections} />
+
+					<ArrowUp visible={isArrowVisible} description={'Seta que retorna ao topo da página'} href="#header" />
+										
 					<h3 className="titulo_produtos">Consulte nossa Equipe</h3>
 					<div className="conteudo_produto">
 						<p className="descricao_produto">Cervejas Artesanais</p>
 						<p className="descricao_produto">Vinhos Nacionais e Importados</p>
 					</div>
-				</div>
+				</main>
 
 			</body>
 			<footer>
