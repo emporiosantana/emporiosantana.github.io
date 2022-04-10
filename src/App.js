@@ -5,6 +5,7 @@ import sectionResponse from './sections.json';
 import menuItemsResponse from './menu-items.json';
 
 import Layout from "./modules/Layout";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
 	const [isArrowButtonVisible, setIsArrowButtonVisible] = useState(false);
@@ -22,12 +23,22 @@ function App() {
 		setIsArrowButtonVisible((winScroll >= 300));
 	}
 
+	const renderTableCard = () => {
+		return (
+			<Layout 
+				menuItems={menuItemsResponse.menu.items} 
+				sections={sectionResponse.sections} 
+				showButtonGoHeader={isArrowButtonVisible} 
+			/>
+		)
+	}
+
 	return (
-		<Layout 
-			menuItems={menuItemsResponse.menu.items} 
-			sections={sectionResponse.sections} 
-			showButtonGoHeader={isArrowButtonVisible} 
-		/>
+		<BrowserRouter>
+			<Routes>
+				<Route path="/" element={renderTableCard()} />
+			</Routes>
+		</BrowserRouter>		
 	);
 }
 
