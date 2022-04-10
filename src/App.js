@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react"
 import './App.css';
 
+import headerResponse from './header.json';
 import sectionResponse from './sections.json';
 import menuItemsResponse from './menu-items.json';
 
@@ -23,12 +24,24 @@ function App() {
 		setIsArrowButtonVisible((winScroll >= 300));
 	}
 
-	const renderTableCard = () => {
+	const renderMainMenu = () => {
 		return (
 			<Layout 
 				menuItems={menuItemsResponse.menu.items} 
 				sections={sectionResponse.sections} 
 				showButtonGoHeader={isArrowButtonVisible} 
+				header={headerResponse.header}
+			/>
+		)
+	}
+
+	const renderDeliveryMenu = () => {
+		return (
+			<Layout 
+				menuItems={menuItemsResponse.menu.items} 
+				sections={sectionResponse.sections} 
+				showButtonGoHeader={isArrowButtonVisible} 
+				header={headerResponse.header}
 			/>
 		)
 	}
@@ -36,7 +49,8 @@ function App() {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path="/" element={renderTableCard()} />
+				<Route path="/" element={renderMainMenu()} />
+				<Route path="/delivery" element={renderDeliveryMenu()} />
 			</Routes>
 		</BrowserRouter>		
 	);

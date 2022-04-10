@@ -1,6 +1,4 @@
-import React from 'react'
-
-const Menu = ({ name, srcIcon, description, section }) => {
+const MenuIcon = ({ name, srcIcon, description, section }) => {
   return (
     <a href={`#${section}`}>
       <div className="menu_itens">
@@ -11,4 +9,4 @@ const Menu = ({ name, srcIcon, description, section }) => {
   )
 }
 
-export default Menu
+export default MenuIcon

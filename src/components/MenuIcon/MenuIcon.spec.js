@@ -1,10 +1,10 @@
 import { render, screen } from "@testing-library/react";
-import Menu from ".";
+import MenuIcon from ".";
 
-describe('Menu', () => { 
+describe('MenuIcon', () => { 
   it('should render logo image', () => {
     render(
-      <Menu 
+      <MenuIcon 
         name="menu name"
         srcIcon="./icon.svg"
         description="menu name icon"
@@ -17,7 +17,7 @@ describe('Menu', () => {
 
   it('should render menu name', () => {
     render(
-      <Menu 
+      <MenuIcon 
         name="menu name"
         srcIcon="./icon.svg"
         description="menu name icon"
@@ -33,7 +33,7 @@ describe('Menu', () => {
 
   it('should go to section when hit the icon', async () => {
     render(
-      <Menu 
+      <MenuIcon 
         name="menu name"
         srcIcon="./icon.svg"
         description="menu name icon"

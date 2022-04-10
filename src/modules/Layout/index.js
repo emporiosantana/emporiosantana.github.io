@@ -2,14 +2,11 @@ import ArrowUpButton from "../../components/ArrowUpButton";
 import Header from "../../components/Header";
 
 import SectionItems from '../SectionItems';
-import MenuItems from "../MenuItems";
+import MenuIcons from "../MenuIcons";
 
-const Card = ({ children }) => (
+const Card = ({ children, header }) => (
   <div className="app">
-    <Header 
-      srcLogo="./images/logo.jpeg" 
-      description="Logo do Empório Santana Bar" 
-    />
+    { header }
     <main className="content">
       { children }
     </main>
@@ -19,10 +16,17 @@ const Card = ({ children }) => (
   </div>
 );
 
-const Layout = ({ menuItems, sections, showButtonGoHeader }) => {
+const Layout = ({ menuItems, sections, showButtonGoHeader, header }) => {
+  const renderHeader = () => (
+    <Header 
+      srcLogo={header.srcLogo}
+      description={header.description}
+    />
+  );
+
   return (
-    <Card>
-      <MenuItems items={menuItems} />
+    <Card header={renderHeader()}>
+      <MenuIcons items={menuItems} />
 
       <SectionItems sections={sections} />
 

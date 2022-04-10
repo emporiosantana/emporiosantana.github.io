@@ -1,11 +1,11 @@
-import Menu from "../../components/Menu";
+import MenuIcon from "../../components/MenuIcon";
 
-const MenuItems = ({ items }) => {
+const MenuIcons = ({ items }) => {
   return (
     <div className="full_menu">
       <div className="menu">
         {items.map(menuItem => (
-          <Menu
+          <MenuIcon
             srcIcon={menuItem.srcIcon}
             description={menuItem.description}
             name={menuItem.name}
@@ -17,4 +17,4 @@ const MenuItems = ({ items }) => {
   )
 }
 
-export default MenuItems;
+export default MenuIcons;
