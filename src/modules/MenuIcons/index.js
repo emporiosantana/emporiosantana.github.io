@@ -2,7 +2,6 @@ import MenuIcon from "../../components/MenuIcon";
 
 const MenuIcons = ({ items }) => {
   return (
-    <div className="full_menu">
       <div className="menu">
         {items.map(menuItem => (
           <MenuIcon
@@ -13,7 +12,6 @@ const MenuIcons = ({ items }) => {
           />
         ))}
       </div>
-    </div>
   )
 }
 

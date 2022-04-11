@@ -1,62 +1,147 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
   margin-block-start: 0;
   margin-block-end: 0;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
 
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 
-html{
+html {
   background-color: #CCDBD8;
   scroll-behavior: smooth;
 }
 
-.app{
+.app {
   margin: 10px;
 }
 
-
-.header{
+.header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,29 +157,127 @@ html{
   border-radius: 50%;
 }
 
-.ondulacao{
+.ondulacao {
   width: 100%;
   height: 60px;
 }
+
+.modal{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+@media only screen and (min-width: 700px)  {
+  .modal{
+    margin-top: 50%;
+  } 
+}
+
+.horario {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.botao_horario {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 220px;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 5px;
+}
+
+.calendario {
+  width: 30px;
+  height: 30px;
+}
+
+.modulo_horario {
+  background-color: #f0f0f0;
+  width: 70%;
+  font-family: 'Poppins', sans-serif;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 99;
+}
+
+.titulo_horario {
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.formatos {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  text-align: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.formato{
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.info p {
+  padding-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.restaurante{
+  border-right: 1px black solid;
+}
+
+.icone_local{
+  width: 25px;
+  height: 25px;
+  padding-right: 5px;
+
+}
+
+
+.endereco {
+  justify-content: center;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+
 
 .content {
   background-color: #fefefe;
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 30px;
 }
 
-.full_menu{
-  padding-top: 10px;
-}
-
-
-
-.menu{
+.menu {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
-.menu_itens{
+.menu_itens {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -103,12 +286,12 @@ html{
 .icones_menu {
   width: 45px;
   height: 45px;
-  border: 1px #f9f9f9 solid;
+  border: 1px #CCDBD8 solid;
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
-  background-color: #f9f9f9;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+  background-color: #CCDBD8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .icones_menu:active {
@@ -120,54 +303,50 @@ html{
 }
 
 @media only screen and (min-width: 700px) {
-  .full_menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
-  }
-
-  .menu{
+  .menu {
     grid-template-columns: repeat(8, 1fr);
   }
 }
 
-a { 
+a {
   color: inherit;
   text-decoration: none;
-} 
+}
 
-.nome_menu{
+.nome_menu {
   font-size: 12px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   margin: 1em;
 }
-.head_produto{
+
+.head_produto {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.titulo_produtos{
+.titulo_produtos {
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   text-align: center;
   margin: 1em 0;
   padding: 5px 0;
-  background-color:#CCDBD8;
+  background-color: #CCDBD8;
   border-radius: 5px;
 }
-.nome_produto{
+
+.nome_produto {
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  margin-bottom: 8px;;
+  margin-bottom: 8px;
+  ;
 }
 
-.conteudo_produto{
+.conteudo_produto {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -175,7 +354,7 @@ a {
   margin-bottom: 20px;
 }
 
-.descricao_produto{
+.descricao_produto {
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
@@ -184,13 +363,13 @@ a {
   margin-right: 5px;
 }
 
-.valor_produto{
+.valor_produto {
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
 }
 
-.footer{
+.footer {
   font-size: 12px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
@@ -203,18 +382,18 @@ a {
 .back-to-top {
   position: fixed;
   bottom: 25px;
-  right: 25px;  
+  right: 25px;
 }
 
 .arrow-hide {
   display: none;
 }
 
-.arrow{
+.arrow {
   width: 25px;
   height: 25px;
-  background-color: #dadada;
+  background-color: #f0f0f0;
   border-radius: 50%;
   padding: 10px;
-  opacity: 90%;
+  opacity: 95%;
 }

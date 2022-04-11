@@ -3,12 +3,13 @@ import Header from "../../components/Header";
 
 import SectionItems from '../SectionItems';
 import MenuIcons from "../MenuIcons";
+import BasicModal from "../../components/Modal";
 
 const Card = ({ children, header }) => (
   <div className="app">
-    { header }
+    {header}
     <main className="content">
-      { children }
+      {children}
     </main>
     <footer>
       <p className='footer'>Empório Santana Bar ©</p>
@@ -18,7 +19,7 @@ const Card = ({ children, header }) => (
 
 const Layout = ({ menuItems, sections, showButtonGoHeader, header }) => {
   const renderHeader = () => (
-    <Header 
+    <Header
       srcLogo={header.srcLogo}
       description={header.description}
     />
@@ -26,16 +27,19 @@ const Layout = ({ menuItems, sections, showButtonGoHeader, header }) => {
 
   return (
     <Card header={renderHeader()}>
+      <div className="horario">
+        <BasicModal/>
+      </div>
       <MenuIcons items={menuItems} />
 
       <SectionItems sections={sections} />
 
-      <ArrowUpButton 
-        visible={showButtonGoHeader} 
-        description={'Seta que retorna ao topo da página'} 
-        href="#header" 
+      <ArrowUpButton
+        visible={showButtonGoHeader}
+        description={'Seta que retorna ao topo da página'}
+        href="#header"
       />
-                
+
       <h3 className="titulo_produtos">Consulte nossa Equipe</h3>
       <div className="conteudo_produto">
         <p className="descricao_produto">Cervejas Artesanais</p>
