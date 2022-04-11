@@ -90,17 +90,14 @@ html{
 
 
 .menu{
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .menu_itens{
-  margin: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 60px;
 }
 
 .icones_menu {
@@ -131,12 +128,7 @@ html{
   }
 
   .menu{
-    width: 50%;
-  }
-
-  .menu_itens{
-   width: 80px;
-   height: 140px;
+    grid-template-columns: repeat(8, 1fr);
   }
 }
 
