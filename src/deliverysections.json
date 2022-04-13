@@ -1,0 +1,385 @@
+{
+    "sections": [
+        {
+            "id": "porcoesquentes",
+            "name": "Petiscos Quentes",
+            "products": [
+                                {
+                    "name": "Batata Frita",
+                    "description": "Batata frita, sequinha e crocante. (aprox. 400g)",
+                    "value": 24.90
+                },
+                {
+                    "name": "Batata Frita do Empório",
+                    "description": "Batata frita, coberta de queijo e bacon. (aprox. 400g)",
+                    "value": 34.90
+                },
+                {
+                    "name": "Mandioca Frita",
+                    "description": "Mandioca frita, sequinha e crocante. (aprox. 400g)",
+                    "value": 22.90
+                },
+                {
+                    "name": "Mandioca Frita do Empório",
+                    "description": "Mandioca frita, coberta de queijo e bacon. (aprox. 400g)",
+                    "value": 32.90
+                },
+                {
+                    "name": "Mussarela Sticks",
+                    "description": "Palitinhos de mussarela empanados, acompanhados de geleia de goiaba e pimenta. (aprox. 250g)",
+                    "value": 38.90
+                },
+                {
+                    "name": "Bolinho de Abóbora",
+                    "description": "Recheados com carne seca, acompanhados da geleia de pimenta especial da casa. (aprox. 400g)",
+                    "value": 42.90
+                },
+                {
+                    "name": "Bolinho de Cupim",
+                    "description": "Acompanhados da geleia de pimenta especial da casa. (aprox. 400g)",
+                    "value": 44.90
+                },
+                {
+                    "name": "Bolinho de Aipim com Carne Seca",
+                    "description": "Acompanhados da geleia abacaxi com pimenta. (aprox. 350g)",
+                    "value": 24.90
+                },
+                {
+                    "name": "Bolinha de Queijo",
+                    "description": "Acompanhados da geleia de goiaba. (aprox. 350g)",
+                    "value": 24.90
+                },
+                {
+                    "name": "Espeto Empanado de Frango",
+                    "description": "Com queijo ou bacon, acompanhado com molho de mostarda. (4 unid.)",
+                    "value": 29.90
+                },
+                {
+                    "name": "Frango à Passarinho",
+                    "description": "Acompanhado de geleia de pimenta da casa. (aprox. 700g)",
+                    "value": 47.90
+                },
+                {
+                    "name": "Iscas de Tilápia",
+                    "description": "Acompanhadas com o molho especial da casa. (aprox. 400g)",
+                    "value": 46.90
+                },
+                {
+                    "name": "Bisteca Suína Acebolada",
+                    "description": "Acompanhada de batatas rústicas, vinagrete, farofa e molho barbecue. (aprox. 300g)",
+                    "value": 39.99
+                },
+                {
+                    "name": "Medalhão de Frango",
+                    "description": " Com parmesão e cheiro verde.(aprox. 500g)",
+                    "value": 34.99
+                },
+                {
+                    "name": "Dadinho de Tapioca",
+                    "description": "Tradicional ou de calabresa, acompanhado de geleia de goiabada com pimenta. (aprox. 250g)",
+                    "value": 32.90
+                },
+                {
+                    "name": "Mini Quibe",
+                    "description": "(aprox. 350g)",
+                    "value": 24.90
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Chapas",
+            "products": [
+                {
+                    "name": "Linguiça de Pernil Acebolada",
+                    "description": " 400g de linguiça com fritas, farofa, vinagrete e baguete.",
+                    "value": 56.90
+                },
+                {
+                    "name": "Chorizo",
+                    "description": " 400g de chorizo com fritas, farofa, vinagrete e baguete.",
+                    "value": 84.90
+                },
+                {
+                    "name": "Picanha com Fritas",
+                    "description": " 400g de picanha, com fritas, farofa, vinagrete e baguete.",
+                    "value": 123.90
+                },
+                {
+                    "name": "Iscas de Filet Mignon",
+                    "description": " 400g de filet mignon, com molho de gorgonzola, fritas, farofa e baguete.",
+                    "value": 99.90
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Acompanhamentos",
+            "products": [
+                {
+                    "name": "Arroz branco",
+                    "description": "",
+                    "value": 10.00
+                },
+                {
+                    "name": "Arroz com Alho",
+                    "description": "",
+                    "value": 12.00
+                },
+                {
+                    "name": "Arroz do Empório",
+                    "description": " Com brócolis, alho frito, bacon e cheiro verde.",
+                    "value": 14.00
+                },
+                {
+                    "name": "Feijão",
+                    "description": "",
+                    "value": 10.00
+                },
+                {
+                    "name": "Tutu de feijão",
+                    "description": "",
+                    "value": 12.00
+                }
+            ]
+        },
+        {
+            "id": "jantinhas",
+            "name": "Jantinhas do Empório",
+            "products": [
+                {
+                    "name": "Jantinha 1",
+                    "description": "Espeto de frango empanado, com queijo ou bacon, arroz branco, tutu de feijão, fritas e vinagrete.",
+                    "value": 21.90
+                },
+                {
+                    "name": "Jantinha 2",
+                    "description": "Espeto de frango empanado, com queijo ou bacon, arroz branco, brócolis, mandioca frita e vinagrete.",
+                    "value": 21.90
+                },
+                {
+                    "name": "Jantinha 3",
+                    "description": "Espeto de frango empanado, com queijo ou bacon, arroz branco, tutu de feijão, rúcula e tomate cereja.",
+                    "value": 21.90
+                },
+                {
+                    "name": "Jantinha 4",
+                    "description": "Espeto de queijo coalho, arroz branco, batata rústica, brócolis e vinagrete.",
+                    "value": 21.90
+                }
+            ]
+        }, 
+        {
+            "id": "lanches",
+            "name": "Hambúgueres",
+            "products": [
+                {
+                    "name": "Empório Tradicional",
+                    "description": "Pão de brioche, 180g de hambúrguer artesanal, queijo prato, rúcula, cebola caramelizada, tomate assado, maionese da casa e fritas.",
+                    "value": 29.90
+                },
+                {
+                    "name": "Empório Bacon",
+                    "description": "Pão de brioche, 180g de hambúrguer artesanal, queijo prato, geleia de bacon com pimenta, maionese da casa e fritas.",
+                    "value": 29.90
+                },
+                {
+                    "name": "Empório Vegetariano",
+                    "description": "Pão de brioche, hambúrguer defumado 100% vegetal, queijo prato, tomate assado, cebola caramelizada, rúcula, molho da casa e fritas.",
+                    "value": 34.90
+                },
+                {
+                    "name": "Hambúrguer Empório Cheese",
+                    "description": "Pão de brioche, 180g de hambúrguer artesanal, mussarela empanada, cebola roxa, rúcula, molho rosé e fritas.",
+                    "value": 29.90
+                }
+            ]
+        },
+        {
+            "id": "pratos",
+            "name": "Pratos à la carte",
+            "products": [
+                {
+                    "name": "Parmegiana de Filet Mignon",
+                    "description": "Molho sugo artesanal, arroz branco e fritas.",
+                    "value": 49.90
+                }
+            ]
+        },
+        {
+            "id": "bebAlcool",
+            "name": "Chopps",
+            "products": [
+                {
+                    "name": "Chopp Pilsen",
+                    "description": "Doktor Brau",
+                    "value": 1000
+                    
+                },
+                {
+                    "name": "Chopp Session Neipa",
+                    "description": "Doktor Brau",
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Cervejas Garrafa",
+            "products": [
+                {
+                    "name": "Heineken",
+                    "description": "",
+                    "value": 15.90 
+                },
+                {
+                    "name": "Eisenbahn",
+                    "description": "",
+                    "value": 13.90
+                },
+                {
+                    "name": "Original",
+                    "description": "",
+                    "value": 12.90
+                },
+                {
+                    "name": "Brahma Duplo Malte",
+                    "description": "",
+                    "value": 12.90
+                },
+                {
+                    "name": "Budweiser",
+                    "description": "",
+                    "value": 13.90
+                },
+                {
+                    "name": "Petra",
+                    "description": "",
+                    "value": 9.90
+                },
+                {
+                    "name": "Brahma",
+                    "description": "",
+                    "value": 10.40
+                },
+                {
+                    "name": "Skol",
+                    "description": "",
+                    "value": 10.40
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Cervejas Long Neck",
+            "products": [
+                {
+                    "name": "Petra",
+                    "description": "",
+                    "value": 7.90
+                },
+                {
+                    "name": "Eisenbahn",
+                    "description": "",
+                    "value": 8.90
+                },
+                {
+                    "name": "Budweiser",
+                    "description": "",
+                    "value": 8.90
+                },
+                {
+                    "name": "Heineken",
+                    "description": "",
+                    "value": 9.50
+                },
+                {
+                    "name": "Império",
+                    "description": "",
+                    "value": 6.90 
+                },
+                {
+                    "name": "Stella Artois",
+                    "description": "",
+                    "value": 8.90
+                },
+                {
+                    "name": "Becks",
+                    "description": "",
+                    "value": 8.90
+                },
+                {
+                    "name": "Corona",
+                    "description": "",
+                    "value": 9.90
+                },
+                {
+                    "name": "Heineken Zero",
+                    "description": "",
+                    "value": 9.50
+                },
+                {
+                    "name": "Estrella Galicia Zero",
+                    "description": "",
+                    "value": 8.90
+                }                
+            ]
+        },
+        
+        {
+            "id": "bebNaoAlcool",
+            "name": "Sem Álcool",
+            "products": [
+                {
+                    "name": "Água sem gás",
+                    "description": "",
+                    "value": 5.00
+                },
+                {
+                    "name": "Água com gás",
+                    "description": "",
+                    "value": 5.00
+                },
+                {
+                    "name": "Água de coco",
+                    "description": "200ml",
+                    "value": 4.00
+                },
+                {
+                    "name": "Água de coco",
+                    "description": "1L",
+                    "value": 10.00
+                },
+                {
+                    "name": "Água Tônica",
+                    "description": "Antártica Zero",
+                    "value": 6.00
+                },
+                {
+                    "name": "Refrigerante Pet",
+                    "description": "200ml",
+                    "value": 4.00
+                },
+                {
+                    "name": "Refrigerante Lata",
+                    "description": "",
+                    "value": 5.50
+                },
+                {
+                    "name": "Refrigerante",
+                    "description": "600ml",
+                    "value": 7.00
+                },
+                {
+                    "name": "Energético Red Bull",
+                    "description": "",
+                    "value": 14.00
+                },{
+                    "name": "Energético Monster",
+                    "description": "",
+                    "value": 12.00
+                }
+            ]
+        }
+    ]
+}
