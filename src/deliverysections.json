@@ -25,8 +25,8 @@
                     "value": 32.90
                 },
                 {
-                    "name": "Mussarela Sticks",
-                    "description": "Palitinhos de mussarela empanados, acompanhados de geleia de goiaba e pimenta. (aprox. 250g)",
+                    "name": "Muçarela Sticks",
+                    "description": "Palitinhos de muçarela empanados, acompanhados de geleia de goiaba e pimenta. (aprox. 250g)",
                     "value": 38.90
                 },
                 {
@@ -190,7 +190,7 @@
                 },
                 {
                     "name": "Hambúrguer Empório Cheese",
-                    "description": "Pão de brioche, 180g de hambúrguer artesanal, mussarela empanada, cebola roxa, rúcula, molho rosé e fritas.",
+                    "description": "Pão de brioche, 180g de hambúrguer artesanal, muçarela empanada, cebola roxa, rúcula, molho rosé e fritas.",
                     "value": 29.90
                 }
             ]
@@ -208,24 +208,7 @@
         },
         {
             "id": "bebAlcool",
-            "name": "Chopps",
-            "products": [
-                {
-                    "name": "Chopp Pilsen",
-                    "description": "Doktor Brau",
-                    "value": 1000
-                    
-                },
-                {
-                    "name": "Chopp Session Neipa",
-                    "description": "Doktor Brau",
-                    "value": 1000
-                }
-            ]
-        },
-        {
-            "id": 10,
-            "name": "Cervejas Garrafa",
+            "name": "Cervejas - 600ml",
             "products": [
                 {
                     "name": "Heineken",
@@ -271,7 +254,7 @@
         },
         {
             "id": 11,
-            "name": "Cervejas Long Neck",
+            "name": "Cervejas - Long Neck",
             "products": [
                 {
                     "name": "Petra",

@@ -1,0 +1,42 @@
+{
+    "menu": {
+      "items": [
+        {
+          "srcIcon": "./images/2.png",
+          "description": "ícones de batata frita ilustrando a aba de porções quentes",
+          "name": "Porções quentes",
+          "section": "porcoesquentes"
+        },
+        {
+          "srcIcon": "./images/3.png",
+          "description": "ícones de um prato de comida ilustrando a aba de jantinhas",
+          "name": "Jantinhas",
+          "section": "jantinhas"
+        },
+        {
+          "srcIcon": "./images/4.png",
+          "description": "ícones de um filé de carne ilustrando a aba de pratos à la carte",
+          "name": "Lanches",
+          "section": "lanches"
+        },      
+        {
+          "srcIcon": "./images/5.png",
+          "description": "ícones de um filé de carne ilustrando a aba de pratos à la carte",
+          "name": "Pratos à la carte",
+          "section": "pratos"
+        },
+        {
+          "srcIcon": "./images/7.png",
+          "description": "ícones de uma caneca de chopp ilustrando a aba Bebidas Alcoólicas",
+          "name": "Bebidas Alcoólicas",
+          "section": "bebAlcool"
+        },
+        {
+          "srcIcon": "./images/8.png",
+          "description": "ícones de um copo de suco ilustrando a aba Bebidas Não Alcoólicas",
+          "name": "Bebidas Não Alcoólicas",
+          "section": "bebNaoAlcool"
+        }
+      ]
+    }
+  }

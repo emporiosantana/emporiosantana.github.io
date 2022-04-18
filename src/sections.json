@@ -317,7 +317,7 @@
         },
         {
             "id": 10,
-            "name": "Cervejas Garrafa",
+            "name": "Cervejas - 600ml",
             "products": [
                 {
                     "name": "Heineken",
@@ -363,7 +363,7 @@
         },
         {
             "id": 11,
-            "name": "Cervejas Long Neck",
+            "name": "Cervejas - Long Neck",
             "products": [
                 {
                     "name": "Petra",
