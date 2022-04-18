@@ -81,8 +81,8 @@
                     "value": 39.90
                 },
                 {
-                    "name": "Mussarela Sticks",
-                    "description": "Palitinhos de mussarela empanados, acompanhados de geleia de goiaba e pimenta. (aprox. 250g)",
+                    "name": "Muçarela Sticks",
+                    "description": "Palitinhos de muçarela empanados, acompanhados de geleia de goiaba e pimenta. (aprox. 250g)",
                     "value": 38.90
                 },
                 {
@@ -256,7 +256,7 @@
                 },
                 {
                     "name": "Hambúrguer Empório Cheese",
-                    "description": "Pão de brioche, 180g de hambúrguer artesanal, mussarela empanada, cebola roxa, rúcula, molho rosé e fritas.",
+                    "description": "Pão de brioche, 180g de hambúrguer artesanal, muçarela empanada, cebola roxa, rúcula, molho rosé e fritas.",
                     "value": 29.90
                 }
             ]
@@ -592,7 +592,7 @@
                 },
                 {
                     "name": "Morango Ice Especial",
-                    "description": "Morango, Yakult, Smirnoff Ice, hortelã e açucar.",
+                    "description": "Morango, Yakult, Smirnoff Ice, hortelã e açúcar.",
                     "value": 31.90
                 },
                 {
@@ -612,7 +612,7 @@
                 },
                 {
                     "name": "Jack Mint",
-                    "description": "Jack Daniels, hortelã, açucar e gelo.",
+                    "description": "Jack Daniels, hortelã, açúcar e gelo.",
                     "value": 29.90
                 },
                 {

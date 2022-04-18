@@ -4,6 +4,8 @@ import Header from "../../components/Header";
 import SectionItems from '../SectionItems';
 import MenuIcons from "../MenuIcons";
 import BasicModal from "../../components/Modal";
+import WhatsAppButton from "../../components/WhastAppButton";
+
 
 const Card = ({ children, header }) => (
   <div className="app">
@@ -28,7 +30,7 @@ const Layout = ({ menuItems, sections, showButtonGoHeader, header }) => {
   return (
     <Card header={renderHeader()}>
       <div className="horario">
-        <BasicModal/>
+        <BasicModal />
       </div>
       <MenuIcons items={menuItems} />
 
@@ -40,6 +42,9 @@ const Layout = ({ menuItems, sections, showButtonGoHeader, header }) => {
         href="#header"
       />
 
+      <WhatsAppButton/>
+
+     
       <h3 className="titulo_produtos">Consulte nossa Equipe</h3>
       <div className="conteudo_produto">
         <p className="descricao_produto">Cervejas Artesanais</p>

@@ -43,7 +43,7 @@ export default function BasicModal() {
                                 <div className="info">
                                     <h2 className="formato">Delivery</h2>
                                     <p>terça a quinta</p>
-                                    <p>18h - 24h</p>
+                                    <p>18h - 23h30</p>
                                 </div>
                             </div>
                             <div className="endereco">
